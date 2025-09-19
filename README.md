@@ -56,6 +56,18 @@ strict and more confident decision).
 ## Consistency: 
 To test consistency F test was used (7a-f), however, Mann – Whitney test is also can be used to prove whether two variables have the same variance.
 
+## Conclusion: 
+To compare the performance of GA and PSO a set of statistical tests were made based on the results from 10 independent runs of each algorithm.  
+
+
+Based on F test there is a significant difference between the variances of the two algorithms, it is clear that PSO is more consistent than GA.  
+
+
+Based on Student t test for mean comparison with unequal variances, the difference in means is statistically significant. So, the PSO outperforms GA in terms of 
+average objective function value. Based on Mann – Whitney U test, there is a difference between GA and PSO performance distribution, which shows that PSO performance is much better than GA performance. 
+
+Based on three tests, PSO performance is significantly more stable, and has higher average performance. PSO is statistically superior to GA for the given optimization task. 
+
 
 
 
