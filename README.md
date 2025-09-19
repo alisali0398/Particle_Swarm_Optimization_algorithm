@@ -37,12 +37,25 @@ As the number of samples is small and the time is limited, student t test will b
 used to compare GA and PSO.  
 
 For both algorithms were made 10 trials.  
-For GA the mean value is 0.976 and variance is 0.0009463
-
-For PSO the mean value is 0.999 and variance is 0.0000012 
+For GA the mean value is 0.976 and variance is 0.0009463. For PSO the mean value is 0.999 and variance is 0.0000012 
 
 Suppose both solutions are approximately normally distributed with unequal 
 variances, check whether GA is superior to B at 𝛼 = 0.05 (smaller α means more 
 strict and more confident decision).
 
 <img width="386" height="460" alt="image" src="https://github.com/user-attachments/assets/6d4ea29f-db40-45bf-bc06-411a074ae109" />
+
+<img width="985" height="487" alt="image" src="https://github.com/user-attachments/assets/4db41278-77b6-4071-8174-0dbc3fc67718" />
+
+<img width="994" height="786" alt="image" src="https://github.com/user-attachments/assets/32d14326-0f67-49c6-8d01-5f9a37441efa" />
+
+<img width="998" height="133" alt="image" src="https://github.com/user-attachments/assets/ee146970-afc0-4138-acc3-fe9ea0fe0786" />
+
+<img width="985" height="581" alt="image" src="https://github.com/user-attachments/assets/eb8486bd-3b74-4cd3-8159-769385360bdd" />
+
+## Consistency: 
+To test consistency F test was used (7a-f), however, Mann – Whitney test is also can be used to prove whether two variables have the same variance.
+
+
+
+
