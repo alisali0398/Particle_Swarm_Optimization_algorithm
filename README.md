@@ -38,6 +38,7 @@ used to compare GA and PSO.
 
 For both algorithms were made 10 trials.  
 For GA the mean value is 0.976 and variance is 0.0009463
+
 For PSO the mean value is 0.999 and variance is 0.0000012 
 
 Suppose both solutions are approximately normally distributed with unequal 
