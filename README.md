@@ -24,13 +24,10 @@ Acceleration constants c<sub>1</sub> = c<sub>2</sub> = 2.0
 Velocity maximum v = 1.0
 
 ## Additional featute
-Dissipative mechanism – to maintain diversity, add a small chance 1% to each 
-particle of being randomly reinitialized in the search space. 
+Dissipative mechanism: To maintain diversity, each particle has a 1% chance of being randomly reinitialized in the search space.
 
 ## Constraint handling: 
-Bouncing mechanism instead of penalty for GA - all particles stay inside the 
-feasible region. The mechanism immediately reflects the particle back into the 
-valid space. 
+Bouncing mechanism: Instead of using a penalty for constraint handling (as in GA), a bouncing strategy was applied to keep all particles inside the feasible region. If a particle violates the constraint, it is immediately reflected back into the valid space.
 
 ## Comparison with GA
 As the number of samples is small and the time is limited, student t test will be 
@@ -43,15 +40,16 @@ Suppose both solutions are approximately normally distributed with unequal
 variances, check whether GA is superior to B at 𝛼 = 0.05 (smaller α means more 
 strict and more confident decision).
 
-<img width="386" height="460" alt="image" src="https://github.com/user-attachments/assets/6d4ea29f-db40-45bf-bc06-411a074ae109" />
+## Statistical Analysis
+Hypotheses:
 
-<img width="985" height="487" alt="image" src="https://github.com/user-attachments/assets/4db41278-77b6-4071-8174-0dbc3fc67718" />
+H<sub>0</sub> : σ<sup>2</sup><sub>GA</sub> = σ<sup>2</sup><sub>PSO</sub>
 
-<img width="994" height="786" alt="image" src="https://github.com/user-attachments/assets/32d14326-0f67-49c6-8d01-5f9a37441efa" />
 
-<img width="998" height="133" alt="image" src="https://github.com/user-attachments/assets/ee146970-afc0-4138-acc3-fe9ea0fe0786" />
 
-<img width="985" height="581" alt="image" src="https://github.com/user-attachments/assets/eb8486bd-3b74-4cd3-8159-769385360bdd" />
+
+
+
 
 ## Consistency: 
 To test consistency F test was used (7a-f), however, Mann – Whitney test is also can be used to prove whether two variables have the same variance.
