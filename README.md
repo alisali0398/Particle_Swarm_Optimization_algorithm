@@ -73,31 +73,45 @@ F = 788.583 > 4.03
 
 Solutions of GA are significantly greater than solutions of PSO, so reject H<sub>0</sub> This is also statistical evidence that PSO is more consistent than GA. 
   
+## Student t test: 
+
+A two-sample t-test with unequal variances (Welch’s t-test) was performed.
+
+<img width="810" height="532" alt="image" src="https://github.com/user-attachments/assets/2aa542a8-ed7c-4770-8b48-ff1cad425b7e" />
+
+As PSO has a higher mean than GA, the test indicates that PSO achieves statistically significantly better results than GA.
+
+<img width="797" height="417" alt="image" src="https://github.com/user-attachments/assets/114a4c83-c7b9-4e60-88fd-608836acdfe1" />
+
+The null hypothesis is rejected, confirming that PSO’s mean performance is significantly better than GA’s.
+
+## Mann–Whitney U Test
+
+A nonparametric Mann–Whitney U test was also performed to compare the distributions of GA and PSO results.
+
+p-value < 0.05
+
+The difference between GA and PSO is statistically significant. Code can be found in a separate file. 
+
+## Conclusion
+
+To compare the performance of GA and PSO a set of statistical tests were made based on the results from 10 independent runs of each algorithm. 
 
 
-
-
-
-
-
-
-
-
-
-## Consistency: 
-To test consistency F test was used (7a-f), however, Mann – Whitney test is also can be used to prove whether two variables have the same variance.
-
-## Conclusion: 
-To compare the performance of GA and PSO a set of statistical tests were made based on the results from 10 independent runs of each algorithm.  
-
-
-Based on F test there is a significant difference between the variances of the two algorithms, it is clear that PSO is more consistent than GA.  
+Based on F test there is a significant difference between the variances of the two algorithms, it is clear that PSO is more consistent than GA. 
 
 
 Based on Student t test for mean comparison with unequal variances, the difference in means is statistically significant. So, the PSO outperforms GA in terms of 
-average objective function value. Based on Mann – Whitney U test, there is a difference between GA and PSO performance distribution, which shows that PSO performance is much better than GA performance. 
+average objective function value. 
 
-Based on three tests, PSO performance is significantly more stable, and has higher average performance. PSO is statistically superior to GA for the given optimization task. 
+
+Based on Mann – Whitney U test, there is a difference between GA and PSO performance distribution, which shows that PSO performance is much better than GA performance. 
+
+
+Based on three tests, PSO performance is significantly more stable, and has higher average performance. PSO is statistically superior to GA for the given optimization task.
+
+
+
 
 
 
