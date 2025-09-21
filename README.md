@@ -41,21 +41,46 @@ variances, check whether GA is superior to B at 𝛼 = 0.05 (smaller α means mo
 strict and more confident decision).
 
 ## Statistical Analysis
-Hypotheses:
+* Hypotheses:
 
 H<sub>0</sub> : σ<sup>2</sup><sub>GA</sub> = σ<sup>2</sup><sub>PSO</sub>
 
 H<sub>1</sub> : σ<sup>2</sup><sub>GA</sub> ≠ σ<sup>2</sup><sub>PSO</sub>
 
-Calculate F statistics:
+* Calculate F statistics:
 
 F = s<sup>2</sup><sub>GA</sub> / s<sup>2</sup><sub>PSO</sub> = 788. 583
 
-Critical values for F statistics:
+* Critical values for F statistics:
 
 d<sub>fGA</sub> = n<sub>GA</sub> - 1 = 9
 
 d<sub>fPSO</sub> = n<sub>PSO</sub> - 1 = 9
+
+* Two two-tailed test, split α into two parts:
+
+  α/2 = 0.025
+
+* F distribution table
+
+F<sub>(0.025;9,9)</sub> = 4.03 - right tail
+
+1/F<sub>(0.025;9,9)</sub> = 0.248 - left tail
+
+* Rejection regions
+
+F = 788.583 > 4.03
+
+Solutions of GA are significantly greater than solutions of PSO, so reject H<sub>0</sub> This is also statistical evidence that PSO is more consistent than GA. 
+  
+
+
+
+
+
+
+
+
 
 
 
