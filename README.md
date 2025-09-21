@@ -45,7 +45,7 @@ Hypotheses:
 
 H<sub>0</sub> : σ<sup>2</sup><sub>GA</sub> = σ<sup>2</sup><sub>PSO</sub>
 
-
+H<sub>1</sub> : σ<sup>2</sup><sub>GA</sub> != σ<sup>2</sup><sub>PSO</sub>
 
 
 
