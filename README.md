@@ -45,9 +45,17 @@ Hypotheses:
 
 H<sub>0</sub> : σ<sup>2</sup><sub>GA</sub> = σ<sup>2</sup><sub>PSO</sub>
 
-H<sub>1</sub> : σ<sup>2</sup><sub>GA</sub> != σ<sup>2</sup><sub>PSO</sub>
+H<sub>1</sub> : σ<sup>2</sup><sub>GA</sub> ≠ σ<sup>2</sup><sub>PSO</sub>
 
+Calculate F statistics:
 
+F = s<sup>2</sup><sub>GA</sub> / s<sup>2</sup><sub>PSO</sub> = 788. 583
+
+Critical values for F statistics:
+
+d<sub>fGA</sub> = n<sub>GA</sub> - 1 = 9
+
+d<sub>fPSO</sub> = n<sub>PSO</sub> - 1 = 9
 
 
 
